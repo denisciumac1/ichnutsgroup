@@ -1,0 +1,863 @@
+                @font-face {
+                    font-family: 'Qanelas-Regular';
+                    src: url('fonts/Qanelas-Regular.otf');
+                }
+                
+                @font-face {
+                    font-family: 'Qanelas-Bold';
+                    src: url('fonts/Qanelas-Bold.otf');
+                }
+                
+                html,
+                body {
+                    overflow-x: hidden;
+                }
+                
+                body {
+                    font-family: "Qanelas-Regular";
+                }
+                
+                #container_top {
+                    background-color: #e9e0be;
+                }
+                /* !!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                .header {
+                    height: 150px;
+                    margin: 0 13%;
+                }
+                
+                .header-right a {
+                    float: left;
+                    color: #080808;
+                    font-weight: 500;
+                    text-decoration: none;
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    padding-left: 18px;
+                }
+                
+                .header-right .header_item::after {
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: #000;
+                    transition: width .3s;
+                }
+                
+                .header-right .header_item:hover::after {
+                    width: 100%;
+                }
+                
+                .fb,
+                .insta {
+                    padding-left: 5px !important;
+                }
+                
+                .ro {
+                    padding-right: 25px!important;
+                    padding-left: 10px!important;
+                }
+                
+                .en {
+                    font-weight: bold!important;
+                }
+                
+                .header-right {
+                    position: relative;
+                    float: right;
+                    top: 60px;
+                }
+                
+                .header_item {
+                    padding-top: 5px;
+                }
+                
+                .logo {
+                    position: relative;
+                    top: 43px;
+                }
+                
+                @media screen and (max-width: 500px) {
+                    .header a {
+                        /* float: none; */
+                        display: block;
+                        text-align: left;
+                    }
+                    .header-right {
+                        float: none;
+                    }
+                }
+                /* !!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!quote!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                #quote {
+                    margin: 0 13%;
+                    box-shadow: 2.5px 4.33px 13px rgba(0, 0, 0, 0.3);
+                    background-color: #efefef;
+                }
+                
+                #quote .col {
+                    padding: 0;
+                }
+                
+                #quote #first h1 {
+                    font-size: 72px;
+                    line-height: 60px;
+                    color: #4e4b4c;
+                    font-weight: 800;
+                }
+                
+                #quote #first p {
+                    font-size: 18px;
+                    letter-spacing: 4px;
+                    color: #080808;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+                
+                #quote #first {
+                    margin-top: 155px;
+                    margin-left: 55px;
+                }
+                
+                #quote #second {
+                    margin-bottom: 95px;
+                }
+                
+                #quote #second img {
+                    float: right;
+                }
+                /* !!!!!!!!!!!!!quote!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!content!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                #content {
+                    margin: 0 13%;
+                }
+                
+                .icon_text {
+                    margin: 100px 27px 0 27px;
+                }
+                
+                .icon_text .col {
+                    padding-left: 0;
+                }
+                
+                .icon_text .col h6 {
+                    height: 51px;
+                    font-size: 30px;
+                    line-height: 24px;
+                    color: #4e4b4c;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    display: inline-block;
+                    margin-left: 25px;
+                }
+                
+                .icon_text .col p {
+                    width: 299px;
+                    height: 190px;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #4e4b4c;
+                    font-family: "Qanelas";
+                    margin: auto;
+                }
+                
+                #carouselExampleControls {
+                    margin-top: 100px;
+                }
+                /* !!!!!!!!!!!!!!our_story!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                .our_story {
+                    margin-top: 78px;
+                    margin-bottom: 55px;
+                }
+                
+                .our_story .col {
+                    padding: 0;
+                }
+                
+                .our_story .col_1 {
+                    padding-top: 185px;
+                    padding-left: 60px;
+                    width: 20%;
+                }
+                
+                .our_story .col_1 h3 {
+                    padding-bottom: 40px;
+                    font-size: 48px;
+                    line-height: 18px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                }
+                
+                .our_story .col_1 p {
+                    width: 293px;
+                    font-size: 19px;
+                    line-height: 29px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                }
+                
+                .our_story .col_2 p {
+                    width: 369px;
+                    font-size: 27px;
+                    line-height: 32px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    margin-top: 48px;
+                    margin-left: 175px;
+                    padding-left: 30px;
+                    vertical-align: top;
+                }
+                
+                .our_story .col_2 img {
+                    padding-right: 30px;
+                }
+                
+                .vertical_line {
+                    border-left: 5px solid #3a3a3a;
+                }
+                /* !!!!!!!!!!!!!!our_story!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!cashew_kernels!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                .cashew_kernels {
+                    margin-bottom: 100px;
+                    box-shadow: 2.5px 4.33px 13px rgba(0, 0, 0, 0.3);
+                    background-color: #efefef;
+                }
+                
+                .cashew_kernels .col {
+                    padding: 0;
+                }
+                
+                .cashew_kernels .col_1 h3 {
+                    font-size: 72px;
+                    line-height: 63px;
+                    color: #4e4b4c;
+                    font-family: "Qanelas";
+                    font-weight: 800;
+                }
+                
+                .cashew_kernels .col_1 p {
+                    width: 250px;
+                    height: 223px;
+                    font-size: 36px;
+                    line-height: 39px;
+                    color: #000000;
+                    font-family: "Qanelas";
+                    padding-top: 25px;
+                }
+                
+                .cashew_kernels .col_1 {
+                    padding-top: 150px;
+                    padding-bottom: 160px;
+                    padding-left: 45px;
+                }
+                
+                .cashew_kernels .col_2 {
+                    padding-top: 130px;
+                    padding-right: 60px;
+                }
+                /* !!!!!!!!!!!!!!cashew_kernels!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!our offering!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                .our_offering {
+                    margin-bottom: 80px;
+                }
+                
+                .our_offering .col-sm {
+                    padding: 0;
+                }
+                
+                .our_offering .col-sm h6 {
+                    font-size: 27px;
+                    line-height: 34px;
+                    color: #9ee260;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    text-align: center;
+                    padding-top: 30px;
+                }
+                
+                .our_off {
+                    margin-bottom: 145px;
+                }
+                
+                .our_off h2 {
+                    font-size: 48px;
+                    line-height: 30px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    margin-bottom: 40px;
+                }
+                
+                .our_off p {
+                    font-size: 24px;
+                    line-height: 30px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    padding: 0 200px 0 200px;
+                }
+                /* !!!!!!!!!!!!!!our offering!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!content!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                #footer {
+                    margin: 0 13%;
+                }
+                
+                #container_bottom {
+                    background-color: #e9e0be;
+                }
+                
+                #footer .adress .col-sm {
+                    /*padding: 0;*/
+                    margin-top: 60px;
+                    margin-bottom: 55px;
+                }
+                
+                #footer .adress {
+                    margin: 0;
+                }
+                
+                #footer .adress .col-sm h6 {
+                    font-size: 24px;
+                    line-height: 18px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                }
+                
+                #footer .adress .col-sm p {
+                    font-size: 14px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                }
+                
+                #hr_footer {
+                    border-top: 2px solid #3a3a3a;
+                    margin: 0;
+                }
+                
+                .bottom_row {
+                    padding-top: 50px;
+                    padding-bottom: 140px;
+                }
+                
+                .bottom_row .first_col,
+                .second_col {
+                    padding: 0;
+                }
+                
+                .bottom_row .first_col p {
+                    padding-top: 80px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    width: 298px;
+                    height: 95px;
+                }
+                
+                .second_col textarea,
+                .second_col input {
+                    display: inline-block !important;
+                    padding: 0!important;
+                    width: 80%;
+                    border: 1px solid black;
+                    border-radius: 0;
+                    background-color: #e9e0be;
+                }
+                
+                .second_col {
+                    padding-left: 150px;
+                }
+                
+                .form-group .name,
+                .form-group .email {
+                    font-size: 14px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    margin-right: 52px;
+                }
+                
+                .form-group .message {
+                    font-size: 14px;
+                    color: #3a3a3a;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                    margin-right: 35px;
+                }
+                
+                .second_col .form-group {
+                    margin-bottom: 20px;
+                }
+                
+                .second_col button {
+                    width: 213px;
+                    height: 38px;
+                    background-color: #9ee260;
+                    margin-left: 95px;
+                    border: 0;
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    color: #ffffff;
+                    font-family: "Qanelas";
+                    font-weight: bold;
+                }
+                
+                .img_mobile {
+                    display: none;
+                }
+                /* !!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!!!!!!!!!Tablet style!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                @media screen and (max-width: 1320px) {
+                    .our_story {
+                        display: block;
+                    }
+                    .our_story .col_1 {
+                        width: auto;
+                        padding-top: 0;
+                    }
+                    .our_story .col_1 p {
+                        width: auto;
+                    }
+                    .our_story .col_2 img {
+                        margin-left: 150px;
+                    }
+                    .our_story .col_2 p {
+                        width: auto;
+                    }
+                }
+                
+                @media screen and (max-width: 1104px) {
+                    .cashew_kernels .col_1 h3 {
+                        text-align: center;
+                    }
+                    .cashew_kernels .col_1 p {
+                        width: auto;
+                    }
+                    .cashew_kernels .col_1 {
+                        padding-bottom: 0;
+                    }
+                    .cashew_kernels .col_2 {
+                        padding-top: 0;
+                        padding-bottom: 150px;
+                    }
+                }
+                
+                @media screen and (max-width: 1036px) {
+                    .header-right {
+                        top: 28px;
+                        font-size: 13px;
+                    }
+                    .logo {
+                        position: relative;
+                        top: 20px;
+                    }
+                }
+                
+                @media screen and (max-width: 1024px) {
+                    #quote #first h1 {
+                        /* font-size: 85px; */
+                        line-height: 65px
+                    }
+                    #quote #first p {
+                        font-size: 21px;
+                    }
+                    #quote #first {
+                        margin-top: 60px;
+                        margin-left: 32%
+                    }
+                    #quote #second {
+                        margin-bottom: 40px;
+                    }
+                    .icon_text {
+                        text-align: center;
+                    }
+                    .icon_text .col h6 {
+                        margin-left: 4px;
+                    }
+                    .icon_text .col p {
+                        /*margin-left: 35px;*/
+                        font-size: 20px;
+                    }
+                    #carouselExampleControls {
+                        margin-top: 0;
+                    }
+                    .our_story .col_1 {
+                        padding: 0 20px 0 20px;
+                        text-align: center;
+                        margin-bottom: 25px;
+                    }
+                    .our_story .col_1 h3 {
+                        font-size: 44px;
+                    }
+                    .our_story .col_1 p {
+                        width: auto;
+                        font-size: 21px;
+                    }
+                    .our_story .col_2 img {
+                        margin-left: 75px;
+                    }
+                    .our_story .col_2 p {
+                        width: auto;
+                        font-size: 28px;
+                    }
+                    .cashew_kernels .col_1 {
+                        padding-bottom: 0;
+                        /*padding-top: 20px;*/
+                        text-align: center;
+                    }
+                    .cashew_kernels .col_1 p {
+                        width: auto;
+                        font-size: 32px;
+                    }
+                    /*.cashew_kernels .col_2{*/
+                    /*padding:0;*/
+                    /*}*/
+                    .our_off h2 {
+                        font-size: 65px;
+                    }
+                    .our_off p {
+                        padding: 0 20px 0 20px;
+                        font-size: 28px;
+                    }
+                    .our_off {
+                        margin-bottom: 70px;
+                    }
+                    .bottom_row {
+                        padding-top: 25px;
+                        padding-bottom: 80px;
+                    }
+                    .bottom_row .first_col p {
+                        font-size: 12px;
+                        padding-top: 40px;
+                        padding-right: 40px;
+                    }
+                    .second_col textarea,
+                    .second_col input {
+                        width: 95%;
+                    }
+                    .second_col button {
+                        margin: auto;
+                    }
+                }
+                
+                @media screen and (max-width: 768px) {
+                    .img_mobile {
+                        display: block;
+                    }
+                    .img_desktop {
+                        display: none;
+                    }
+                    #quote #first {
+                        margin-top: 40px;
+                        margin-left: 20%;
+                    }
+                    #quote #first h1 {
+                        font-size: 60px;
+                    }
+                    .icon_text .col p {
+                        margin-top: 30px;
+                        /*width: 450px;*/
+                    }
+                    .our_story .col_1 h3 {
+                        font-size: 38px;
+                    }
+                    .our_story .col_2 img {
+                        margin-left: 130px
+                    }
+                    .our_story .col_2 p {
+                        margin-left: 15px;
+                    }
+                    .our_story {
+                        margin-bottom: 80px;
+                    }
+                    .cashew_kernels .col_1 h3 {
+                        font-size: 60px;
+                    }
+                    .cashew_kernels .col_1 {
+                        padding-left: 0;
+                        padding-top: 70px;
+                        padding-bottom: 70px;
+                    }
+                    .cashew_kernels .col_2 {
+                        padding-left: 35px;
+                        padding-bottom: 10px;
+                        padding-top: 135px;
+                    }
+                    .our_off h2 {
+                        font-size: 55px;
+                    }
+                    .our_off p {
+                        font-size: 26px;
+                    }
+                    .second_col button {
+                        width: 120px;
+                    }
+                    #footer .adress .col-sm p {
+                        font-size: 15px;
+                    }
+                    #footer .adress .first,
+                    #footer .adress .second {
+                        margin-bottom: 0px;
+                    }
+                }
+                
+                @media screen and (max-width: 758px) {
+                    .header-right {
+                        top: 23px;
+                    }
+                }
+                
+                @media screen and (max-width: 744px) and (min-width:705px) {
+                    .ro {
+                        margin-right: 32px;
+                    }
+                }
+                
+                @media screen and (max-width: 744px) {
+                    .fb,
+                    .insta {
+                        padding-top: 7px;
+                    }
+                }
+                
+                @media screen and (max-width: 701px) {
+                    .fb,
+                    .insta {
+                        padding-top: 7px;
+                    }
+                }
+                
+                @media screen and (max-width: 698px) {
+                    .cashew_kernels .col_1 {
+                        padding-bottom: 0;
+                    }
+                    .cashew_kernels .col_2 {
+                        padding-top: 0;
+                        padding-left: 80px;
+                        padding-bottom: 70px;
+                    }
+                }
+                /* !!!!!!!!!!!!!!!!!!!!!!Tablet style!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* !!!!!!!!!!!!!!!!!!!!!!Mobile style!!!!!!!!!!!!!!!!!!!!!!!! */
+                
+                @media screen and (max-width: 475px) {
+                    #quote #first {
+                        margin-left: 15%;
+                    }
+                }
+                
+                @media screen and (max-width: 425px) {
+                    .header {
+                        height: 210px;
+                    }
+                    .logo {
+                        left: 43px;
+                    }
+                    .header-right {
+                        top: 45px;
+                    }
+                    .dis_none {
+                        display: none;
+                    }
+                    .header_item {
+                        padding-top: 10px;
+                    }
+                    #quote #first h1 {
+                        font-size: 50px;
+                        line-height: 45px;
+                    }
+                    #quote #first {
+                        margin-top: 30px;
+                        margin-left: 15%;
+                    }
+                    #quote #first p {
+                        font-size: 13px;
+                        margin-top: 20px;
+                        margin-bottom: 5px;
+                    }
+                    .icon_text {
+                        margin: 50px 27px 0 27px;
+                    }
+                    .icon_text .col {
+                        padding: 20px 13px 0 13px;
+                    }
+                    .icon_text .col p {
+                        margin-top: 10px;
+                        width: 250px;
+                        margin: 0;
+                        font-size: 17px;
+                    }
+                    .icon_text .col h6 {
+                        margin-left: 0px;
+                    }
+                    .our_story .col_1 h3 {
+                        font-size: 45px;
+                    }
+                    .our_story .col_1 p {
+                        line-height: 20px;
+                        font-size: 17px;
+                    }
+                    .our_story .col_2 img {
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .our_story .col_2 p {
+                        margin: 20px 0 0 0;
+                        font-size: 22px;
+                    }
+                    .cashew_kernels .col_1 h3 {
+                        font-size: 50px;
+                    }
+                    .cashew_kernels .col_1 p {
+                        font-size: 27px;
+                    }
+                    .cashew_kernels .col_2 {
+                        padding-left: 35px;
+                        padding-top: 0;
+                    }
+                    .our_offering .col-sm h6 {
+                        padding-top: 5px;
+                        padding-bottom: 30px;
+                    }
+                    .our_off h2 {
+                        font-size: 40px;
+                        margin-bottom: 20px;
+                    }
+                    .our_off p {
+                        font-size: 20px;
+                        padding: 5px 5px 0 5px;
+                    }
+                    #footer .adress .col-sm {
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                    }
+                    #footer .adress .col-sm p {
+                        font-size: 17px;
+                    }
+                    .bottom_row .first_col p {
+                        padding-top: 20px;
+                    }
+                    .bottom_row .first_col {
+                        max-width: 100%;
+                    }
+                    .bottom_row .second_col {
+                        max-width: 100%;
+                        padding-left: 0;
+                        flex: none;
+                        padding-top: 40px;
+                    }
+                }
+                
+                @media screen and (max-width: 396px) and (min-width:353px) {
+                    .ro {
+                        margin-right: 32px;
+                    }
+                }
+                
+                @media screen and (max-width: 396px) {
+                    .fb,
+                    .insta {
+                        padding-top: 10px;
+                    }
+                }
+                
+                @media screen and (max-width: 375px) {
+                    .icon_text .col p {
+                        width: 210px;
+                        font-size: 17px;
+                    }
+                    .icon_text {
+                        margin: 50px 0 0 0;
+                    }
+                    .icon_text .col {
+                        padding: 20px 0px 0 0px;
+                    }
+                    .icon_text .col p {
+                        width: 280px;
+                    }
+                    .bet_qual {
+                        margin-left: 48px!important;
+                    }
+                }
+                
+                @media screen and (max-width: 360px) {
+                    .cashew_kernels .col_2 {
+                        padding-left: 20px;
+                    }
+                }
+                
+                @media screen and (max-width: 348px) {
+                    .header-right {
+                        top: 20px;
+                    }
+                }
+                
+                @media screen and (max-width: 320px) {
+                    .logo {
+                        left: 16px;
+                    }
+                    .header-right {
+                        top: 38px;
+                    }
+                    .header-right a {
+                        padding-left: 15px;
+                        padding-top: 5px;
+                    }
+                    #quote #first {
+                        margin-left: 15%;
+                    }
+                    #quote #first h1 {
+                        font-size: 45px;
+                        line-height: 40px;
+                    }
+                    #quote #first p {
+                        letter-spacing: 2px;
+                    }
+                    .icon_text .col p {
+                        width: 250px;
+                    }
+                    .our_story .col_1 p {
+                        line-height: 16px;
+                        font-size: 18px;
+                    }
+                    .our_story .col_2 img {
+                        margin-left: -30px;
+                    }
+                    .our_story .col_2 p {
+                        font-size: 19px;
+                    }
+                    .cashew_kernels .col_1 h3 {
+                        font-size: 45px;
+                    }
+                    .cashew_kernels .col_1 p {
+                        font-size: 23px;
+                    }
+                    .cashew_kernels .col_2 {
+                        padding-left: 0;
+                    }
+                    .our_off h2 {
+                        font-size: 36px;
+                    }
+                    .our_off p {
+                        font-size: 19px;
+                        line-height: 25px;
+                    }
+                }
+                /* !!!!!!!!!!!!!!!!!!!!!!Mobile style!!!!!!!!!!!!!!!!!!!!!!!! */
